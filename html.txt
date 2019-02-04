@@ -1,0 +1,17 @@
+Jazyk HTML a jeho verze
+
+HTML (Hypertext Markup Language = hypertextový značkovací jazyk) je speciální jazyk pro publikování hypertextových dokumentů označovaných jako webové stránky. Za hypertext považujeme text, který obsahuje propojení (odkazy) na jiné texty. Označení značkovací jazyk souvisí se strukturováním dokumentu pomocí značek (tagů).
+
+První verzi jazyka HTML publikoval zakladatel služby WWW Tim Berners Lee v roce 1991. Tato verze umožňovala vkládat do textu obrázky, hypertextové odkazy, vytvořit několik logických úrovní a několik druhů zvýraznění. Byla označena jako HTML 0.9. Požadavky uživatelů se postupně zvyšovaly a promítaly se do vývoje následujících verzí HTML.
+
+Nástupcem velmi rozšířené verze HTML 4.01, která vycházela z metajazyka SGML (Standard Generalized Markup Language), se stal jazyk XHTML, jehož základem je modernější metajazyk XML (eXtensible Markup Language, rozšiřitelný značkovací jazyk). Existují tři různé definice jazyka XHTML: strict (přísná), transitional (přechodná) a frameset (s podporou frames - rámců). Přísná definice vychází ze zásad XML a vyžaduje přísné dodržování pravidel: značky i atributy mají být zapisovány výhradně malými písmeny; všechny značky jsou považovány za párové, a i ty původně nepárové proto musejí být zakončeny lomítkem (např. <br />); všem atributům musí být přiřazena hodnota, která je zapisována mezi uvozovky apod.
+
+Přestože se původně připravovala specifikace XHTML 2.0, iniciativa zejména tvůrců významných prohlížečů vedla ke vzniku současné verze HTML 5. Ta definitivně ukončila závislost na SGML, opravila mnoho chyb předešlých verzí, vyřadila řadu zastaralých a nepoužívaných prvků a zavedla nové sémantické prvky. Zároveň přibyla podpora moderních technologií (multimédia), byl zaveden nový systém vývoje jazyka.
+
+O výběru definice HTML rozhoduje speciální element DOCTYPE, který se uvádí na začátku kódu stránky a v případě XHTML obsahuje odkaz na příslušný DTD (Document Type Definition). DTD představuje návod, jak má dokument, napsaný ve značkovacím jazyce, interpretovat prohlížeč (tj. např. jaké elementy dokument používá, jak s nimi zacházet, jaký význam mají jednotlivé atributy apod.). V případě XHTML Strict vypadá zápis elementu DOCTYPE následovně:
+
+<!DOCTYPE html PUBLIC “-//W3C//DTD XHTML 1.0 Strict//EN“ “http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict. dtd“>
+V případě HTML 5 je zápis mnohem jednodušší:
+<!DOCTYPE html>
+
+Definiční dokument je umístěn na serveru konsorcia W3C (World Wide Web Consorcium), které má na starost definování standardů služby WWW.
